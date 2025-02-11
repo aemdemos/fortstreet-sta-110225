@@ -12,32 +12,34 @@
   padding: 0;
   display: flex; /* Use flexbox for horizontal alignment */
   flex-direction: row; /* Ensure items are aligned side by side */
-  gap: 24px; /* Add gap between cards */
+  gap: 20px; /* Adjust gap between cards */
   width: 100%;
   justify-content: space-between; /* Ensure even spacing between cards */
 }
 
 .aicards-u4i0gy-box-id-95299458 > ul > li {
-  background-color: #000080; /* Dark blue background */
+  background-color: #02084b; /* Set background color to #02084b */
   color: white; /* White text color */
   flex: 1; /* Allow flex items to grow and fill the container */
-  margin: 0; /* Remove extra horizontal margin */
+  margin: 0; /* Adjust margin to create uniform spacing */
   border: none; /* Remove border */
   display: flex;
   flex-direction: column; /* Ensure elements inside card body are stacked vertically */
   padding: 20px; /* Add padding */
   box-shadow: 0 4px 8px rgb(0 0 0 / 10%); /* Optional: Add shadow for better appearance */
-  max-width: calc(25% - 24px); /* Ensure cards take up equal width */
+  height: auto; /* Ensure cards adjust to content height */
 }
 
 .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body {
   display: flex;
   flex-direction: column; /* Ensure elements inside card body are stacked vertically */
-  height: 100%; /* Ensure full height */
+  justify-content: space-between; /* Ensure even spacing */
+  flex: 1;
 }
 
 .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body h2 {
   margin-top: 0; /* Remove default margin */
+  margin-bottom: 10px; /* Space below title */
   font-weight: bold; /* Bold font */
   color: white; /* White text */
 }
@@ -48,27 +50,26 @@
 }
 
 .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body .button-container {
-  margin-top: auto; /* Push button to the bottom */
-  display: flex; /* Use flexbox for horizontal alignment */
-  flex-direction: row; /* Ensure button is aligned horizontally */
+  display: flex; /* Use flexbox for alignment */
   justify-content: flex-start; /* Align button to the left */
+  margin-top: auto; /* Push button to the bottom */
 }
 
 .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body .button {
-  color: white; /* White text */
-  text-decoration: none; /* Remove underline */
-  border-bottom: 1px solid white; /* Add underline */
-  display: inline-flex; /* Make it inline-flex */
-  align-items: center; /* Vertically center the text and arrow */
-  padding: 0; /* Remove padding */
   background: none; /* Remove background */
+  border: none; /* Remove border */
+  color: white; /* Ensure text is white */
+  text-decoration: none; /* Remove underline */
+  padding: 0; /* Remove padding */
+  display: inline-flex; /* Ensure proper alignment */
+  align-items: center; /* Vertically center the text and arrow */
   position: relative; /* Position relative for the arrow */
 }
 
 .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body .button::after {
   content: ' \2192'; /* Right arrow icon */
   color: white; /* White color for the arrow */
-  margin-left: 5px; /* Space between text and arrow */
+  margin-left: 5px; /* Small space between text and arrow */
   display: inline-block; /* Ensure proper alignment */
   transform: translateY(0); /* Adjust vertical alignment */
 }
