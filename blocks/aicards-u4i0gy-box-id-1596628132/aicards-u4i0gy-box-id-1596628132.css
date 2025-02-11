@@ -31,10 +31,10 @@
   font-family: var(--body-font-family); /* Ensure the font style matches */
   padding: 12px 24px; /* Adjust padding for the button */
   font-size: 1rem; /* Adjust font size to match the original image */
-  color: #ffffff; /* Ensure the button text color is white */
+  color: #fff; /* Ensure the button text color is white */
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 > div {
     align-items: center;
     flex-direction: row; /* Ensure the layout is side-by-side on larger screens */
