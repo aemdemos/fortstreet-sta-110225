@@ -1,29 +1,41 @@
 
+.aicards-u4i0gy-box-id-1596628132-wrapper {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a light shadow to the block */
+}
+
+.aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 {
+  display: flex;
+  flex-direction: row; /* Ensure the layout is side-by-side */
+  align-items: flex-start; /* Align items to the top */
+}
+
 .aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 > div {
   display: flex;
   flex-direction: row; /* Ensure the layout is side-by-side */
-  align-items: center; /* Center align the items vertically */
+  align-items: flex-start; /* Align items to the top */
+  width: 100%; /* Make sure the inner div takes the full width */
 }
 
-.aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 > div > div {
+.aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 > div > div:nth-child(2) {
   flex: 1; /* Ensure the text container takes up equal space */
   padding-left: 20px; /* Add padding between the image and text */
   display: flex;
-  flex-direction: column; /* Ensure text elements are stacked vertically */
-  justify-content: center; /* Center align text elements vertically */
+  flex-direction: column; /* Stack text elements vertically */
+  justify-content: flex-start; /* Align text elements to the top */
 }
 
 .aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132-img-col {
   flex: 1; /* Ensure the image container takes up equal space */
+  max-width: 50%; /* Ensure the image container does not exceed half the block's width */
 }
 
 .aicards-u4i0gy-box-id-1596628132-wrapper h3, 
 .aicards-u4i0gy-box-id-1596628132-wrapper p {
-  margin-bottom: 24px; /* Increase margin to create more vertical spacing between text elements */
+  margin-bottom: 4px; /* Reduce margin to create more compact vertical spacing between text elements */
 }
 
 .aicards-u4i0gy-box-id-1596628132-wrapper .button-container {
-  margin-top: 24px; /* Add margin to create vertical spacing between text and button */
+  margin-top: 8px; /* Reduce margin to create vertical spacing between text and button */
 }
 
 .aicards-u4i0gy-box-id-1596628132-wrapper .button {
@@ -34,14 +46,14 @@
   color: #fff; /* Ensure the button text color is white */
 }
 
-@media (width >= 900px) {
+@media (min-width: 900px) {
   .aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 > div {
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row; /* Ensure the layout is side-by-side on larger screens */
-    gap: 24px;
+    gap: 16px; /* Adjust gap to match the original image */
   }
 
-  .aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 > div > div {
+  .aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 > div > div:nth-child(2) {
     flex: 1;
     order: unset;
   }
