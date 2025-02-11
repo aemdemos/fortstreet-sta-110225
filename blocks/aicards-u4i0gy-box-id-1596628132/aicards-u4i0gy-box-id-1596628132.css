@@ -1,6 +1,6 @@
 
 .aicards-u4i0gy-box-id-1596628132-wrapper {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a light shadow to the block */
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%); /* Add a light shadow to the block */
 }
 
 .aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 {
@@ -46,7 +46,7 @@
   color: #fff; /* Ensure the button text color is white */
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aicards-u4i0gy-box-id-1596628132-wrapper > .aicards-u4i0gy-box-id-1596628132 > div {
     align-items: flex-start;
     flex-direction: row; /* Ensure the layout is side-by-side on larger screens */
