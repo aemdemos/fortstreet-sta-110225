@@ -9,16 +9,15 @@
 
 .aicolumns-u4i0gy-box-id-2074294274 > div {
   display: flex;
-  flex-direction: row; /* Ensure items are aligned side by side */
-  flex-wrap: wrap; /* Allow wrapping if necessary */
+  flex-flow: row wrap; /* Ensure items are aligned side by side */ /* Allow wrapping if necessary */
   gap: 16px; /* Add gap between the cards */
 }
 
 .aicolumns-u4i0gy-box-id-2074294274 > div > div {
-  background-color: #ffffff; /* Light background for each card */
+  background-color: #fff; /* Light background for each card */
   border: 1px solid #e0e0e0; /* Light border for each card */
   border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%); /* Subtle shadow for depth */
   flex: 1 1 calc(33.333% - 16px); /* Adjust flex property to fit three cards per row with gap */
   max-width: calc(33.333% - 16px); /* Ensure maximum width of each card to fit three per row */
   display: flex;
@@ -60,7 +59,7 @@
   margin-bottom: 16px; /* Adjust bottom margin to the last paragraph */
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aicolumns-u4i0gy-box-id-2074294274 > div {
     align-items: flex-start;
     gap: 16px; /* Adjust gap between items */
