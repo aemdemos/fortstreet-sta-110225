@@ -10,6 +10,7 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
+ 
 :root {
   --background-color: white;
   --light-color: #f8f8f8;
@@ -28,7 +29,7 @@
   --heading-font-size-m: 16px;
   --heading-font-size-s: 18px;
   --heading-font-size-xs: 16px;
-  --nav-height: 64px;
+  --nav-height: 350px;
 }
 
 /* fallback fonts */
@@ -44,25 +45,14 @@
 }
 
 @font-face {
-  font-family:"Zilla Slab Fallback";
-  font-style:normal;
-  font-weight:700;
-  src:local("Arial Bold");
-  ascent-override:102.25%;
-  descent-override:27.73%;
-  line-gap-override:0.00%;
-  size-adjust:92.33%;
-}
-
-@font-face {
   font-family:"Open Sans Fallback";
   font-style:normal;
-  font-weight:700;
-  src:local("Arial Bold");
-  ascent-override:109.90%;
-  descent-override:30.12%;
+  font-weight:400;
+  src:local("Arial");
+  ascent-override:101.58%;
+  descent-override:27.84%;
   line-gap-override:0.00%;
-  size-adjust:97.26%;
+  size-adjust:105.22%;
 }
 
 @font-face {
@@ -79,12 +69,23 @@
 @font-face {
   font-family:"Open Sans Fallback";
   font-style:normal;
-  font-weight:400;
-  src:local("Arial");
-  ascent-override:101.58%;
-  descent-override:27.84%;
+  font-weight:700;
+  src:local("Arial Bold");
+  ascent-override:109.90%;
+  descent-override:30.12%;
   line-gap-override:0.00%;
-  size-adjust:105.22%;
+  size-adjust:97.26%;
+}
+
+@font-face {
+  font-family:"Zilla Slab Fallback";
+  font-style:normal;
+  font-weight:700;
+  src:local("Arial Bold");
+  ascent-override:102.25%;
+  descent-override:27.73%;
+  line-gap-override:0.00%;
+  size-adjust:92.33%;
 }
 
 @font-face {
@@ -112,6 +113,17 @@
 @font-face {
   font-family:"montserrat Fallback";
   font-style:normal;
+  font-weight:400;
+  src:local("Arial");
+  ascent-override:86.64%;
+  descent-override:21.62%;
+  line-gap-override:0.00%;
+  size-adjust:111.36%;
+}
+
+@font-face {
+  font-family:"montserrat Fallback";
+  font-style:normal;
   font-weight:800;
   src:local("Arial Bold");
   ascent-override:90.74%;
@@ -129,17 +141,6 @@
   descent-override:14.29%;
   line-gap-override:0.00%;
   size-adjust:100.00%;
-}
-
-@font-face {
-  font-family:"montserrat Fallback";
-  font-style:normal;
-  font-weight:400;
-  src:local("Arial");
-  ascent-override:86.64%;
-  descent-override:21.62%;
-  line-gap-override:0.00%;
-  size-adjust:111.36%;
 }
 
 @media (width>=900px) {
