@@ -1,0 +1,72 @@
+
+.aicolumns-u4i0gy-box-id-2074294274-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+  gap: 16px; /* Adjust gap between the cards */
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.aicolumns-u4i0gy-box-id-2074294274 > div {
+  display: flex;
+  flex-flow: row wrap; /* Ensure items are aligned side by side */ /* Allow wrapping if necessary */
+  gap: 16px; /* Add gap between the cards */
+}
+
+.aicolumns-u4i0gy-box-id-2074294274 > div > div {
+  background-color: #fff; /* Light background for each card */
+  border: 1px solid #e0e0e0; /* Light border for each card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%); /* Subtle shadow for depth */
+  flex: 1 1 calc(33.333% - 16px); /* Adjust flex property to fit three cards per row with gap */
+  max-width: calc(33.333% - 16px); /* Ensure maximum width of each card to fit three per row */
+  display: flex;
+  flex-direction: column; /* Align items in a column */
+  overflow: hidden; /* Hide overflow content */
+  margin-bottom: 16px; /* Add bottom margin for vertical spacing in wrap mode */
+}
+
+.aicolumns-u4i0gy-box-id-2074294274 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.aicolumns-u4i0gy-box-id-2074294274 p,
+.aicolumns-u4i0gy-box-id-2074294274 h3 {
+  margin: 8px 16px; /* Add margin around text elements */
+  padding: 0; /* Remove padding inside the card */
+  color: #333; /* Set a default text color */
+}
+
+.aicolumns-u4i0gy-box-id-2074294274 h3 {
+  font-size: 1.25em; /* Larger font size for the heading */
+  margin-top: 8px; /* Adjust top margin for the heading */
+}
+
+.aicolumns-u4i0gy-box-id-2074294274 p:first-of-type {
+  font-size: 0.875em; /* Smaller font size for the category text */
+  color: #777; /* Lighter color for the category text */
+}
+
+.aicolumns-u4i0gy-box-id-2074294274 p:nth-of-type(2) {
+  font-size: 1em; /* Standard font size for the date */
+  color: #555; /* Intermediate color for the date */
+}
+
+.aicolumns-u4i0gy-box-id-2074294274 p:last-of-type {
+  flex-grow: 1; /* Allow the last paragraph to take up remaining space */
+  margin-bottom: 16px; /* Adjust bottom margin to the last paragraph */
+}
+
+@media (width >= 900px) {
+  .aicolumns-u4i0gy-box-id-2074294274 > div {
+    align-items: flex-start;
+    gap: 16px; /* Adjust gap between items */
+  }
+
+  .aicolumns-u4i0gy-box-id-2074294274 > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
