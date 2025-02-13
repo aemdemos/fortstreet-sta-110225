@@ -1,0 +1,57 @@
+
+.aicolumns-u4i0gy-box-id-494745282-wrapper > .aicolumns-u4i0gy-box-id-494745282 {
+  display: flex; /* Use Flexbox for the layout */
+  flex-direction: row; /* Ensure elements are side by side */
+}
+
+.aicolumns-u4i0gy-box-id-494745282-wrapper > .aicolumns-u4i0gy-box-id-494745282 > div {
+  display: flex;
+  flex-direction: row; /* Ensure elements are side by side */
+  flex: 1;
+}
+
+.aicolumns-u4i0gy-box-id-494745282-wrapper > .aicolumns-u4i0gy-box-id-494745282 > div > div:first-child {
+  background-color: #0a1e5e; /* Dark blue background */
+  color: white; /* Text color */
+  padding: 20px; /* Padding for the text section */
+  flex: 1; /* Allow the left section to take up half the available width */
+  display: flex;
+  flex-direction: column; /* Ensure elements inside are stacked */
+  justify-content: center; /* Center elements vertically */
+}
+
+.aicolumns-u4i0gy-box-id-494745282-wrapper > .aicolumns-u4i0gy-box-id-494745282 > div > div:last-child {
+  flex: 1; /* Allow the right section to take up the remaining half of the available width */
+  background-image: url('your-image-url.jpg'); /* Set the image as the background */
+  background-size: cover; /* Cover the entire section with the image */
+  background-position: center; /* Center the image */
+  position: relative;
+  min-height: 300px; /* Ensure the right section has a minimum height */
+}
+
+.aicolumns-u4i0gy-box-id-494745282-wrapper > .aicolumns-u4i0gy-box-id-494745282 > div > div:last-child::before {
+  content: "Welcome to Fort Street Public School Video"; /* Add overlay text */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white; /* Text color */
+  padding: 10px; /* Padding for the overlay text */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  z-index: 1; /* Ensure the overlay text appears above the image */
+}
+
+.aicolumns-u4i0gy-box-id-494745282-wrapper > .aicolumns-u4i0gy-box-id-494745282 .button-container .button {
+  background-color: #0a1e5e; /* Dark blue button background */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Button padding */
+  border-radius: 5px; /* Button border radius */
+  text-align: center; /* Center the text */
+  display: inline-block;
+}
+
+.aicolumns-u4i0gy-box-id-494745282-wrapper > .aicolumns-u4i0gy-box-id-494745282 .button-container {
+  display: flex;
+  justify-content: flex-start; /* Align the button to the left */
+}
